@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="top|center"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="">
+        <EditText
+            android:id="@+id/et1"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:hint="A"
+            android:inputType="number|numberDecimal|numberSigned"
+            android:gravity="center"/>
+        <EditText
+            android:id="@+id/et2"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:inputType="number|numberDecimal|numberSigned"
+            android:hint="B"
+            android:gravity="center"/>
+        <EditText
+            android:id="@+id/et3"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:inputType="number|numberDecimal|numberSigned"
+            android:hint="C"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="gennum"
+        android:text="Generate numbers"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="sol"
+        android:text="show solution"/>
+
+
+
+
+</LinearLayout>
